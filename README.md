@@ -1,39 +1,37 @@
-# SecureGate-LDAP
-
-SecureGate-LDAP: MFA-Enabled Enterprise Auth Bridge
+# SecureGate-LDAP: MFA-Enabled Enterprise Auth Bridge
 SecureGate-LDAP is a security-focused Flask web application that demonstrates how to implement a multi-layered authentication system. It integrates Active Directory/LDAP for primary credentials with TOTP (Time-based One-Time Password) for Multi-Factor Authentication, backed by MongoDB.
 
-🛡️ Security Features
-Multi-Layered Auth: Combines LDAP/AD credential verification with Google Authenticator (TOTP).
+# 🛡️ Security Features
+* Multi-Layered Auth: Combines LDAP/AD credential verification with Google Authenticator (TOTP).
 
-Brute-Force Protection: Built-in rate limiting and account lockout mechanisms (5 attempts, 5-minute lockout).
+* Brute-Force Protection: Built-in rate limiting and account lockout mechanisms (5 attempts, 5-minute lockout).
 
-Bot Prevention: Integrated Google reCAPTCHA v2 to prevent automated login attempts.
+* Bot Prevention: Integrated Google reCAPTCHA v2 to prevent automated login attempts.
 
-Hardened Headers: Implements X-Frame-Options, X-Content-Type-Options, and HSTS to mitigate common web attacks.
+* Hardened Headers: Implements X-Frame-Options, X-Content-Type-Options, and HSTS to mitigate common web attacks.
 
-Secure Sessions: Uses HttpOnly, SameSite=Lax, and Secure cookie flags.
+* Secure Sessions: Uses HttpOnly, SameSite=Lax, and Secure cookie flags.
 
-Data Integrity: Passwords (local fallback) are hashed using Bcrypt with a unique salt.
+* Data Integrity: Passwords (local fallback) are hashed using Bcrypt with a unique salt.
 
-🚀 Tech Stack
-Backend: Python (Flask)
+# 🚀 Tech Stack
+* Backend: Python (Flask)
 
-Database: MongoDB (using PyMongo)
+* Database: MongoDB (using PyMongo)
 
-Identity: LDAP3 (Active Directory integration)
+* Identity: LDAP3 (Active Directory integration)
 
-MFA: PyOTP & QRCode
+* MFA: PyOTP & QRCode
 
-Validation: Flask-WTF & Google reCAPTCHA
+* Validation: Flask-WTF & Google reCAPTCHA
 
-🛠️ Installation & Setup
+# 🛠️ Installation & Setup
 1. Prerequisites
-Python 3.8+
+* Python 3.8+
 
-MongoDB (Local instance or Atlas)
+* MongoDB (Local instance or Atlas)
 
-Google reCAPTCHA API Keys (Get them here)
+* Google reCAPTCHA API Keys ([Get them here](https://www.google.com/recaptcha/admin/))
 
 2. Clone and Install
 Bash

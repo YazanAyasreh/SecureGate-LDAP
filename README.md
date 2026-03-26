@@ -67,3 +67,53 @@ pip install -r requirements.txt
 
 # 4. Run the Secure Server
 python app.py
+
+## 🔐 Environment Configuration (.env)
+
+The application requires a `.env` file in the root directory to manage sensitive credentials. **Never commit your actual `.env` file to version control.** Create a file named `.env` and populate it with the following:
+
+```env
+# Flask Security
+SECRET_KEY=generate_a_secure_hex_string_here
+
+# Google reCAPTCHA v2 (Get keys at: [google.com/recaptcha/admin](https://google.com/recaptcha/admin))
+RECAPTCHA_PUBLIC_KEY=your_site_key_here
+RECAPTCHA_PRIVATE_KEY=your_secret_key_here
+
+# Database Configuration
+MONGO_URI=mongodb://localhost:27017/
+MONGO_DB_NAME=mfa_app
+
+# LDAP / Active Directory Configuration
+LDAP_SERVER=ldap://127.0.0.1
+LDAP_BASE_DN=dc=example,dc=com
+
+---
+
+### 2. The Repository Anatomy Section
+This is best placed near the bottom of the README. It acts as a "map" for your code. Use a "Code Block" with the `text` language tag to keep the alignment perfect.
+
+```markdown
+## 📂 Repository Anatomy
+
+A modular breakdown of the project structure and the purpose of each directory:
+
+```text
+SecureGate-LDAP/
+├── static/              # Assets: CSS styles and generated MFA QR codes
+├── templates/           # UI Layer: Hardened HTML5 templates (Base, Login, MFA, QR)
+├── .env                 # The Vault: Private API keys and secrets (Local only)
+├── .gitignore           # The Filter: Prevents sensitive files from being uploaded
+├── app.py               # The Brain: Main Flask application logic and routing
+├── requirements.txt     # The Manifest: List of all Python dependencies
+└── README.md            # The Manual: Project documentation and setup guide
+
+---
+
+### 💡 Pro-Tip: The `.env.example` file
+In professional repositories, we usually create a file actually named `.env.example` and upload it to GitHub. It contains the exact text I gave you above but with empty values. 
+
+This way, when someone clones your project, they see exactly what they need to fill in.
+
+**Would you like me to generate a "Security Checklist" section for your README to show that you've tested for common vulnerabilities?**
+

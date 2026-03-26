@@ -1,15 +1,14 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/SECURE--GATE-LDAP-111827?style=for-the-badge&logo=shield&logoColor=white" alt="Logo">
-  
-  <p align="center">
-    <strong>Enterprise-Grade MFA Gateway for Active Directory & LDAP</strong>
-  </p>
+  <img src="http://googleusercontent.com/image_collection/image_retrieval/6300876683287901470_0" alt="SecureGate-LDAP Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;">
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/Flask-2.0-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
-    <img src="https://img.shields.io/badge/MongoDB-4.4+-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
-    <img src="https://img.shields.io/badge/Security-Hardened-success?style=flat-square" alt="Security">
+  <h1>🛡️ SecureGate-LDAP</h1>
+  <p><strong>Enterprise-Grade MFA Gateway for Active Directory & LDAP</strong></p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/Flask-2.0-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+    <img src="https://img.shields.io/badge/MongoDB-4.4+-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+    <img src="https://img.shields.io/badge/Security-Hardened-success?style=for-the-badge" alt="Security">
   </p>
 </div>
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="http://googleusercontent.com/image_collection/image_retrieval/6300876683287901470_0" alt="SecureGate-LDAP Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;">
+  <img src="image_0.png" alt="SecureGate-LDAP Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;">
 
   <h1>🛡️ SecureGate-LDAP</h1>
   <p><strong>Enterprise-Grade MFA Gateway for Active Directory & LDAP</strong></p>

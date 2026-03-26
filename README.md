@@ -54,3 +54,19 @@ pip install -r requirements.txt
 
 # 4. Run the application
 python app.py
+
+-----
+
+### 2\. Create the `requirements.txt`
+
+Create a new file in your repo named `requirements.txt` and paste this:
+
+```text
+Flask==2.2.3
+Flask-WTF==1.1.1
+pymongo==4.3.3
+bcrypt==4.0.1
+pyotp==2.8.0
+qrcode==7.4.2
+ldap3==2.9.1
+python-dotenv==1.0.0
